@@ -1,10 +1,10 @@
 package ir.ac.kntu.cs2d.Gun;
 
 public class Gun {
-    String name;
-    int damage, price, magazineCapacity,millisToFireAgain;
-    double reloadTime;
-    boolean terroristCanUse;
+    private String name;
+    private int damage, price, magazineCapacity,millisToFireAgain;
+    private double reloadTime;
+    private boolean terroristCanUse;
 
     public Gun(String name, int damage, int price, int magazineCapacity, int millisToFireAgain, double reloadTime, boolean terroristCanUse) {
         this.name = name;
